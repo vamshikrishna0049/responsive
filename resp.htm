@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+       body{
+        margin: 0px;
+       }
+       *{
+        box-sizing: border-box;
+       }
+       .container{
+        margin: 24px;
+       }
+       img{
+        width: 100%;
+        vertical-align: top;
+       }
+       .items{
+        padding: 10px;
+        text-align: center;
+        text-align-last: center;
+        font-family: "Roboto", sans-serif;
+       }
+       @media screen and (min-width:600px) {
+        .container{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(4,1fr);     
+        }
+        #a{
+                height: 70vh;
+                width: 23vw;               
+            }
+            #b{
+                height: 70vh;
+                width: 23vw;           
+            }
+            #c{
+                height: 70vh;
+                width: 23vw;   
+            }
+            #d{
+                height: 70vh;
+                width: 23vw;
+                
+            }
+        
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="img not found" id="a">
+            <div class="text">
+                <h2>The Perfect Sandwich, A Real NYC Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        
+            </div>
+        </div>
+        <div class="items">
+            <img src="https://www.w3schools.com/w3images/steak.jpg" alt="img not found" id="b">
+                <div class="text">
+                    <h2>Let Me Tell You About This Steak</h2>
+                    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            
+                </div>
+        </div>
+        <div class="items">
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="img not found" id="c">
+            <div class="text">
+                <h2>Cherries, interrupted</h2>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+    
+        <div class="items">
+            <img src="https://www.w3schools.com/w3images/wine.jpg" alt="img not found" id="d">
+            <div class="text">
+                <h2>Once Again, Robust Wine and Vegetable Pasta</h2>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
